@@ -2,11 +2,31 @@
   margin:0;
   padding:0;
 }
+.agency{
+  color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+}
+.nav-st{
+  color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
+}
 h1,h2,h3,h4,h5,h6,p,ul{
+  color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
   margin:0;
   padding:0;
   font-family: "Mulish", sans-serif;
 
+}
+header{
+  margin-top: 52px;
 }
 .header-content{
   width:80%;
@@ -17,7 +37,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
   align-items: center;
 }
 .logo{
-  width:20%;
+    width:20%;
   display: flex;
 }
 .logo h2{
@@ -55,7 +75,7 @@ nav ul li a{
 .banner {
   display: flex;
   background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/banner.png);
-  min-height: 100vh;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -63,8 +83,12 @@ nav ul li a{
   align-items: center;
   position: relative;
   width:80%;
-  margin:auto;
+  margin:49px auto 100px auto;
   border-radius: 16px;
+}
+.b-p{
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
 .banner::before{
   
@@ -77,13 +101,16 @@ nav ul li a{
   z-index: -1;
   border-radius: 16px;
 }
-.banner_content{width: 70%;margin: auto;}
+.banner_content{
+  width: 70%;
+  padding: 106px 185px;
+}
 .banner_content h2{
 color: #fff;
 text-align: center;
 font-size: 64px;
 font-weight: 800;
-margin-bottom: 10px;
+margin-bottom: 48px;
 }
 .banner_content p{
 color: #fff;
@@ -91,7 +118,8 @@ font-size: 16px;
 text-align: center;
 margin-bottom: 20px;
 }
-.form_content{background: #ffffff63;border-radius: 8px;width: 320px;text-align: center;margin: auto;padding: 30px;}
+.form_content{
+  background: #ffffff63;border-radius: 8px;width: 320px;text-align: center;margin: auto;padding: 30px;}
 .banner_form{
 width: 340px;
 }
@@ -102,7 +130,10 @@ width: 340px;
 /* tour section start */
 .tour_section{
   width:80%;
-  margin:auto;
+  margin:100px auto;
+}
+.t-p{
+  margin-top: 40px;
 }
 .tour_banner{
   display: flex;
@@ -112,6 +143,10 @@ width: 340px;
   width:50%;
   padding-right: 40px;
 }
+.tour_content ul{
+  margin: 40px;
+}
+
 .tour_content h3{
   color:#131318;
   text-align: left;
@@ -153,11 +188,11 @@ width: 340px;
   border:none;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
-  margin-top:15px;
+  margin-top:40px;
 
 }
 .tour_img{
-  width:50%;
+  width:40%;
 } 
 .tour_img img{
   width:100%;
@@ -166,12 +201,15 @@ width: 340px;
 
 /* choose section start */
 .choose_section{
-  width:80%;
-  margin:auto;
+  width:60%;
+  margin:0px auto;
 }
 .choose_content{
   margin-top:80px;
   
+}
+.ch-p{
+  margin-top: 24px;
 }
 .choose_content h2{
   text-align: center;
@@ -187,7 +225,9 @@ width: 340px;
   color: rgba(19, 19, 24, 0.70);
   margin-bottom: 20px;
 }
-.choose_content_img{}
+.choose_content_img{
+  margin-top: 48px;
+}
 .choose_img_one{
   display: flex;
   gap: 15px;
@@ -320,9 +360,13 @@ width: 340px;
 .us_section{
   width:80%;
   margin:auto;
+  margin-bottom: 100px;
 }
 .us_section_content{
   margin-top: 80px;
+}
+.us-p{
+  margin-top: 24px;
 }
 .us_section_content h2{
   text-align: center;
@@ -336,6 +380,9 @@ width: 340px;
   text-align: center;
   color: rgba(19, 19, 24, 0.70);
   margin-bottom: 20px;
+}
+.hotel-content-main{
+  margin-top: 48px;
 }
 .hotel_content{
   display: flex;
@@ -427,11 +474,22 @@ line-height: 26px;
   gap:15px;
   margin-top: 50px;
 }
+.nl-p{
+  margin-top: 26px;
+}
 .newsletter_content_one{
   border:1px solid #FF5400;
-  padding: 20px 20px;
+  padding: 40px;
   width: 40%;
   border-radius: 15px;
+}
+.nl-f{
+  margin-top: 52px;
+}
+.nl-f input{
+  margin-top:  26px;
+  margin-bottom: 26px;
+
 }
 .newsletter_content_one h2{
 color: #131318;
@@ -499,11 +557,25 @@ font-size: 14px;
 /* footer section start */
  footer{
   background-color: #f3f3f3;
-  margin-top:80px;
+  margin-top:100px;
  }
  .footer_section{
  
 text-align: center;
+ }
+ .agency{
+  color: #FF5400;
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+ }
+ .f-p{
+  color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
  }
  .footer_content{
 
@@ -558,10 +630,12 @@ font-size: 16px;
 /* footer section end */
 /* deals section start */
 .deals_section{
-  width:80%;
+  width:60%;
   margin:auto;
+  margin-bottom: 100px;
 }
 .deals_content_one{
+  margin-top: 48px;
   position: relative;
   margin-bottom: 15px;
 }
@@ -576,6 +650,9 @@ font-size: 16px;
   text-align: center;
   color: rgba(19, 19, 24, 0.70);
   margin-bottom: 25px;
+}
+.d-p{
+  margin-top: 24px;
 }
 .discount_deals{
 background-color: white;
@@ -716,15 +793,24 @@ margin-right: 5px;
 /* simple section start */
 .simple_section{
   width:80%;
-  margin:auto;
+  margin:100px auto;
  }
  .simple_banner{
   display: flex;
   margin-top:50px;
  }
+ .s-p-p{
+  margin-top: 44px;
+ }
+ .h-p-s{
+  margin-bottom: 54px;
+ }
  .simple_content{
   width:50%;
   padding-right: 40px;
+ }
+ .simple_content ul{
+  margin: 34px;
  }
  .simple_content h3{
   color:#131318;
@@ -764,7 +850,7 @@ margin-right: 5px;
   margin-top:15px;
  }
  .simple_img{
-  width:50%;
+  width:40%;
   position: relative;
 } 
  .simple_img img{
